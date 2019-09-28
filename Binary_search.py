@@ -24,4 +24,4 @@ result=binary_search(arr,0,len(arr)-1,x)
 if result !=1:
     print(result)
 else:
-    print("not found arr")
+    print("not found in list")
