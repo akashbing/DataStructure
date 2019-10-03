@@ -11,7 +11,6 @@ def selection_sort(arr):
         arr[i],arr[min_idx]=arr[min_idx],arr[i]
 
 
-
 selection_sort(arr)
 
 for i in range(len(arr)):
