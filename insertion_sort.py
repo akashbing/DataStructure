@@ -17,7 +17,23 @@ def insertion_sort(arr):
 
         arr[j+1]=key
 
-arr=[12,11,13,5,7]
+arr1=input("Enter list:")
+arr=[]
+for i in arr1.split(','):
+    y=int(i)
+    arr.append(y)
 insertion_sort(arr)
+
+
+#########################################
+l=[]
 for i in range(len(arr)):
-    print(arr[i])
+    l.append(arr[i])
+
+print(l)
+n=int(input("Enter number for search:"))
+def linear_search(l,n):
+    for i in range(len(l)):
+        if l[i]==n:
+            return i
+print(linear_search(l,n))
