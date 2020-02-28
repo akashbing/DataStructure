@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="data" type="PLAIN_TEXT" />
       <mapping ext="yaml___jb_old___" type="YAML" />
     </extensionMap>
   </component>
